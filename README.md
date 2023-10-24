@@ -32,4 +32,4 @@ Inline-style:
 
 ### 11 - then create username the hit enter, then enter email then hit enter, the password
 
-### 12 - Now push your work to github by clicking then plus button next to changes just under the orange button on the top left called commit, thern type initial commit in the message box above the orage commit button, the click the orange commit drop down, then click commit and push, you have now pushed your project to github congrates
+### 12 - Now push your work to github by clicking then plus button next to changes just under the orange button on the top left called commit, then type initial commit in the message box above the orage commit button, the click the orange commit drop down, then click commit and push, you have now pushed your project to github congrates
