@@ -17,7 +17,7 @@
 
 ## 6 - Create a basic gitignore file by typing touch .gitignore then in gitignore file add these *.sqlite3 *.pyc __pycache__
 
-### 6 - Then type this in your terminal python3 manage.py runserver your projext should open
+### 6 - Then type this in your terminal python3 manage.py runserver your project should open
 
 ### 7 - Then go to settings.py in your project folder '8000-donnavanstadd-techstore-5hxkhqpe0wb.ws-eu105.gitpod.io'
 
@@ -31,3 +31,5 @@ Inline-style:
 ### 10 - Create superuser to lgin to admin by typing python3 manage.py createsuperuser
 
 ### 11 - then create username the hit enter, then enter email then hit enter, the password
+
+### 12 - Now push your work to github by clciking thrn plus button next to changes just under the orange button on the top left called commit, thern type initial commit in the message box above the orage commit button, the click the orage commit drop down, then click commit and push, you have now pushed your project to github congrates
