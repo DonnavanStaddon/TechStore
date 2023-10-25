@@ -85,4 +85,9 @@ We have sent an e-mail to you for verification. Follow the link provided to fina
 
 28. head back to setting.py and change LOGIN_REDIRECT_URL = '/success' to LOGIN_REDIRECT_URL = '/'
 
-26. Push to git hub
+29. In terminal paste this: pip3 freeze > reqirements.txt
+
+30. Paste this in terminal: mkdir templates
+31. Paste this in terminal: mkdir templates/allauth
+
+31. Push to git hub
