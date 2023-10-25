@@ -79,4 +79,10 @@ Inline-style:
 25. test it by running the server navigate to /accounts/login, if it just says success you need to log out of admin by going to /admin and log out the try again by going to /accounts/login if you login and it say Verify Your E-mail Address
 We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes. you succefully created a login page
 
-26.Push to git hub
+26. log in to admin
+
+27. open email address clcik add email address select search, select your email, enter your email, then select verified and primary, thern click save, log out the head back to lo in page to see difference, if you see 404 page error thats a good thing because we it has taken you to success page it will look like this http://8000-donnavanstadd-techstore-eob2xdfff9e.ws-eu105.gitpod.io/success
+
+28. head back to setting.py and change LOGIN_REDIRECT_URL = '/success' to LOGIN_REDIRECT_URL = '/'
+
+26. Push to git hub
