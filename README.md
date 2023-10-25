@@ -34,7 +34,7 @@ Inline-style:
 
 12. Now push your work to github by clicking the plus button next to changes just under the orange button on the top left called commit, then type initial commit in the message box above the orange commit button, then click the orange commit drop down, then click commit and push, you have now pushed your project to github congrates.
 
-### Registartion
+### Registration Page Setup
 13. In terminal type: pip3 install django-allauth==0.41.0
 
 14. [Follow this link to allauth.org](https://docs.allauth.org/en/latest/installation/quickstart.html)
@@ -91,3 +91,5 @@ We have sent an e-mail to you for verification. Follow the link provided to fina
 31. Paste this in terminal: mkdir templates/allauth
 
 31. Push to git hub
+
+## Home Page setup
