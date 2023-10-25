@@ -58,3 +58,8 @@ Inline-style:
 18. Paste this in urls.py/urlpatterns: path('acounts/', include('allauth.urls')), also add include at the top by imports
 
 19. Then run migrations to update the database by typing this in teminal: python3 manage.py migrate 
+
+20. Then run server: python3 manage.py runserver
+21.Navigate to admin: by adding /admin after your url: https://8000-donnavanstadd-techstore-eob2xdfff9e.ws-eu105.gitpod.io/admin/login/?next=/admin/
+22. login, if you cannot login create a superuser
+23. when logged in click on sites and update the domain of the default site its called example.com click on it to yourwebsitename.example.com and change dispaly name to your website name like Tech Store is mine then click save
