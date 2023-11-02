@@ -4,7 +4,6 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="{% static/css 'base.css' %}">
   {% block meta %}
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
@@ -17,6 +16,10 @@
   {% block corecss %}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
   {% endblock %}
 
   {% block extra_css %}
@@ -24,6 +27,7 @@
   {% endblock %}
 
   {% block corejs %}
+  <script src="https://kit.fontawesome.com/35ae2e5353.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
