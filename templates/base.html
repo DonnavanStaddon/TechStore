@@ -59,23 +59,44 @@
           <li class="nav-item active">
             <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Televisions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">By Price</a>
+              <a class="dropdown-item" href="#">By Rating</a>
+              <a class="dropdown-item" href="#">By Category</a>
+              <a class="dropdown-item" href="#">All Products</a>
+              <div class="dropdown-divider"></div>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Computers
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">By Price</a>
+              <a class="dropdown-item" href="#">By Rating</a>
+              <a class="dropdown-item" href="#">By Category</a>
+              <a class="dropdown-item" href="#">All Products</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Virual Reality
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">By Price</a>
+              <a class="dropdown-item" href="#">By Rating</a>
+              <a class="dropdown-item" href="#">By Category</a>
+              <a class="dropdown-item" href="#">All Products</a>
+              <div class="dropdown-divider"></div>
+            </div>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0" method="get" action="">
@@ -125,6 +146,7 @@
       </div>
       </div>
     </nav>
+      <h2 id="banner">Free Delivery On Orders Over £{{ free_shipping_threshold }}!</h2>
   </header>
 
   {% if messages %}
