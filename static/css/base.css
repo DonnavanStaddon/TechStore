@@ -3,11 +3,9 @@ html {
 }
 
 body {
-  background: url('/media/hologrambg.png') no-repeat center center fixed;
-  background-size: cover;
-  height: calc(100vh - 164px);
-  color: #555;
-  font-family: 'Lato';
+  height: 200px;
+  background-color: blueviolet; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#F0F8FF, #00FFFF, #14d36a, #DDA0DD);
 }
 
 /* from Bulma */
