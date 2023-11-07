@@ -100,7 +100,7 @@
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" method="get" action="">
+        <form class="form-inline my-2 my-lg-0" method="get" action="{% url 'products' %}">
           <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
@@ -149,6 +149,8 @@
     </nav>
       <h2 id="banner">Free Delivery On Orders Over £{{ free_shipping_threshold }}!</h2>
   </header>
+
+<p class="margin"></p>
 
   {% if messages %}
   <div class="message-container"></div>
