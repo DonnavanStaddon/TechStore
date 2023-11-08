@@ -66,11 +66,11 @@
               Televisions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">LG</a>
-              <a class="dropdown-item" href="#">Samsung</a>
-              <a class="dropdown-item" href="#">Sony</a>
-              <a class="dropdown-item" href="#">TCL</a>
-              <a class="dropdown-item" href="#">Hisense</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=television">Televisions</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=computers">Computers</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=gaming_computers">Gaming PC</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=consoles">Consoles</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=vr">VR</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
@@ -80,12 +80,11 @@
               Computers
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">HP</a>
-              <a class="dropdown-item" href="#">ACER</a>
-              <a class="dropdown-item" href="#">PCSPECIALIST</a>
-              <a class="dropdown-item" href="#">SONY PlayStation 5</a>
-              <a class="dropdown-item" href="#">Xbox Series S</a>
-              <a class="dropdown-item" href="#">Xbox Series X</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=television">Televisions</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=computers">Computers</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=gaming_computers">Gaming PC</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=consoles">Consoles</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=vr">VR</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
@@ -95,9 +94,11 @@
               Virual Reality
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">RAY-BAN Meta</a>
-              <a class="dropdown-item" href="#">META Quest 3</a>
-              <a class="dropdown-item" href="#">PLAYSTATION VR2</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=television">Televisions</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=computers">Computers</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=gaming_computers">Gaming PC</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=consoles">Consoles</a>
+              <a class="dropdown-item" href="{% url 'products' %}?category=vr">VR</a>
               <div class="dropdown-divider"></div>
             </div>
           </li>
@@ -149,10 +150,10 @@
       </div>
       </div>
     </nav>
-      <h2 id="banner">Free Delivery On Orders Over £{{ free_shipping_threshold }}!</h2>
+    <h2 id="banner">Free Delivery On Orders Over £{{ free_shipping_threshold }}!</h2>
   </header>
 
-<p class="margin"></p>
+  <p class="margin"></p>
 
   {% if messages %}
   <div class="message-container"></div>
