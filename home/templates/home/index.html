@@ -8,9 +8,9 @@
 <div class="index">
   <h1 class="indexh1">Welcome to Tech Store</h1>
   <p class="indexp">We research the net for affordable top tech ~ So you dont have to</p>
-    <a href="#"></a><button class="button">Televisions</button></a>
-    <a href="#"></a><button class="button">Computers</button></a>
-    <a href="#"><button class="button">Consoles</button>
-    <a href="#"></a><button class="button">Virual Reality</button></a>
-  </div>
+  <a href="{% url 'products' %}?category=televisions"></a><button class="button">Televisions</button></a>
+  <a href="{% url 'products' %}?category=computers"></a><button class="button">Computers</button></a>
+  <a href="{% url 'products' %}?category=consoles"><button class="button">Consoles</button>
+    <a href="{% url 'products' %}?category=virtualreality"></a><button class="button">Virual Reality</button></a>
+</div>
 {% endblock %}
