@@ -1,338 +1,338 @@
 [
    {
-      "pk":1,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5001340155",
-         "name":"LG OLED55C34LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
-         "description":"Advanced OLED a9 AI processor with AI Super Upscaling, Incredible brightness with Brightness Booster, Refresh rate: 120 Hz",
-         "price":1399,
-         "category":1,
-         "rating":4.8,
-         "image_url":"",
-         "image":"lgoled.png"
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001340155",
+         "name": "LG OLED55C34LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
+         "description": "Advanced OLED a9 AI processor with AI Super Upscaling, Incredible brightness with Brightness Booster, Refresh rate: 120 Hz",
+         "price": 1399,
+         "category": 1,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "lgoled.png"
       }
    },
    {
-      "pk":2,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5001600425",
-         "name":"LG OLED55CS6LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Google Assistant & Amazon Alexa",
-         "description":"a9 Gen5 AI processor 4K for the ultimate picture & sound, SELF-LIT OLED for perfect contrast & 100% colour accuracy, Refresh rate: 120 Hz",
-         "price":1079,
-         "category":1,
-         "rating":4.6,
-         "image_url":"",
-         "image":"lgoledcs.jpg"
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001600425",
+         "name": "LG OLED55CS6LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Google Assistant & Amazon Alexa",
+         "description": "a9 Gen5 AI processor 4K for the ultimate picture & sound, SELF-LIT OLED for perfect contrast & 100% colour accuracy, Refresh rate: 120 Hz",
+         "price": 1079,
+         "category": 1,
+         "rating": 4.6,
+         "image_url": "",
+         "image": "lgoledcs.jpg"
       }
    },
    {
-      "pk":3,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5001730010",
-         "name":"LG OLED55G36LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
-         "description":"This is LG's best tv and most probably the best tv built in the world, Advanced OLED α9 AI processor with AI Super Upscaling, Stunning brightness with Brightness Booster Max, Refresh rate: 120 Hz",
-         "price":1899,
-         "category":1,
-         "rating":5.0,
-         "image_url":"",
-         "image":"lgg3.jpg"
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001730010",
+         "name": "LG OLED55G36LA 55 Inch Smart 4K Ultra HD HDR OLED TV with Amazon Alexa",
+         "description": "This is LG's best tv and most probably the best tv built in the world, Advanced OLED α9 AI processor with AI Super Upscaling, Stunning brightness with Brightness Booster Max, Refresh rate: 120 Hz",
+         "price": 1899,
+         "category": 1,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "lgg3.jpg"
       }
    },
    {
-      "pk":4,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5001890157",
-         "name":"SAMSUNG QE55S90CATXXU 55 Inch Smart 4K Ultra HD HDR OLED TV with Bixby & Amazon Alexa",
-         "description":"Naturally bright colour with Quantum Dot technology, Intelligent upscaling with Quantum Processor 4K, Refresh rate: 120 Hz (up to 144 Hz), Neural Quantum Processor 4K",
-         "price":1399,
-         "category":1,
-         "rating":4.6,
-         "image_url":"",
-         "image":"samsungs90c.jpg"
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5001890157",
+         "name": "SAMSUNG QE55S90CATXXU 55 Inch Smart 4K Ultra HD HDR OLED TV with Bixby & Amazon Alexa",
+         "description": "Naturally bright colour with Quantum Dot technology, Intelligent upscaling with Quantum Processor 4K, Refresh rate: 120 Hz (up to 144 Hz), Neural Quantum Processor 4K",
+         "price": 1399,
+         "category": 1,
+         "rating": 4.6,
+         "image_url": "",
+         "image": "samsungs90c.jpg"
       }
    },
    {
-      "pk":5,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320233",
-         "name":"SAMSUNG QE55S95CATXXU 55 Inch Smart 4K Ultra HD HDR OLED TV with Bixby & Alexa",
-         "description":"Most probably the best tv on the market, Naturally bright colour with Quantum Dot technology, Object Tracking Sound+ for immersive 3D sound, Refresh rate: 120 Hz (up to 144 Hz), Neural Quantum Processor 4K",
-         "price":1899,
-         "category":1,
-         "rating":5.0,
-         "image_url":"",
-         "image":"samsungs95c.jpg"
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320233",
+         "name": "SAMSUNG QE55S95CATXXU 55 Inch Smart 4K Ultra HD HDR OLED TV with Bixby & Alexa",
+         "description": "Most probably the best tv on the market, Naturally bright colour with Quantum Dot technology, Object Tracking Sound+ for immersive 3D sound, Refresh rate: 120 Hz (up to 144 Hz), Neural Quantum Processor 4K",
+         "price": 1899,
+         "category": 1,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "samsungs95c.jpg"
       }
    },
    {
-      "pk":6,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320230",
-         "name":"SAMSUNG QE55QN85CATXXU 55 Inch Smart 4K Ultra HD HDR Neo QLED TV with Amazon Alexa & Bixby",
-         "description":"Object Tracking Sound, Adaptive Sound + Lighting, Neural Quantum Processor 4K, Refresh rate: 120 Hz",
-         "price":899,
-         "category":1,
-         "rating":5.0,
-         "image_url":"",
-         "image":"samsungqn85.png"
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320230",
+         "name": "SAMSUNG QE55QN85CATXXU 55 Inch Smart 4K Ultra HD HDR Neo QLED TV with Amazon Alexa & Bixby",
+         "description": "Object Tracking Sound, Adaptive Sound + Lighting, Neural Quantum Processor 4K, Refresh rate: 120 Hz",
+         "price": 899,
+         "category": 1,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "samsungqn85.png"
       }
    },
    {
-      "pk":7,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320231",
-         "name":"SONY BRAVIA XR-55A95LU 55 Inch Smart 4K Ultra HD HDR OLED TV with Google TV & Assistant",
-         "description":"This is the best Sony TV its QD-OLED is for the ultimate entertainment experience QD Stands for Quantum Crystals, this tv has thousands of crystals which makes it a very bright tv, plus it has OLED integrated in it",
-         "price":2999,
-         "category":1,
-         "rating":5.0,
-         "image_url":"",
-         "image":"sonya95.jpg"
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320231",
+         "name": "SONY BRAVIA XR-55A95LU 55 Inch Smart 4K Ultra HD HDR OLED TV with Google TV & Assistant",
+         "description": "This is the best Sony TV its QD-OLED is for the ultimate entertainment experience QD Stands for Quantum Crystals, this tv has thousands of crystals which makes it a very bright tv, plus it has OLED integrated in it",
+         "price": 2999,
+         "category": 1,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "sonya95.jpg"
       }
    },
    {
-      "pk":8,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320232",
-         "name":"SONY BRAVIA XR-55A84LU 55 Inch, Smart 4K Ultra HD HDR OLED TV with Google TV & Assistant",
-         "description":"BRAVIA XR OLED for exceptional blacks & dazzling brightness, Refresh rate: 120 Hz, Very good sound quality, Cognitive Processor XR",
-         "price":1599,
-         "category":1,
-         "rating":4.8,
-         "image_url":"",
-         "image":"sonyA84.png"
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320232",
+         "name": "SONY BRAVIA XR-55A84LU 55 Inch, Smart 4K Ultra HD HDR OLED TV with Google TV & Assistant",
+         "description": "BRAVIA XR OLED for exceptional blacks & dazzling brightness, Refresh rate: 120 Hz, Very good sound quality, Cognitive Processor XR",
+         "price": 1599,
+         "category": 1,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "sonyA84.png"
       }
    },
    {
-      "pk":9,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320233",
-         "name":"TCL 55C845K 55 Inch, Smart 4K Ultra HD HDR Mini LED QLED TV with Google Assistant",
-         "description":"Refresh rate: 120 Hz (up to 144 Hz), HDMI 2.1 x 4, Audio power 70 W, Quad core",
-         "price":1599,
-         "category":1,
-         "rating":4.8,
-         "image_url":"",
-         "image":"tclc84.png"
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320233",
+         "name": "TCL 55C845K 55 Inch, Smart 4K Ultra HD HDR Mini LED QLED TV with Google Assistant",
+         "description": "Refresh rate: 120 Hz (up to 144 Hz), HDMI 2.1 x 4, Audio power 70 W, Quad core",
+         "price": 1599,
+         "category": 1,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "tclc84.png"
       }
    },
    {
-      "pk":10,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320233",
-         "name":"HISENSE 55U7KQTUK 55 Inch Smart 4K Ultra HD HDR Mini-LED TV with Amazon Alexa",
-         "description":"Refresh rate: 120 Hz (up to 144 Hz), Mini-LED TV",
-         "price":699,
-         "category":1,
-         "rating":4.5,
-         "image_url":"",
-         "image":"hisenseu7.png"
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320233",
+         "name": "HISENSE 55U7KQTUK 55 Inch Smart 4K Ultra HD HDR Mini-LED TV with Amazon Alexa",
+         "description": "Refresh rate: 120 Hz (up to 144 Hz), Mini-LED TV",
+         "price": 699,
+         "category": 1,
+         "rating": 4.5,
+         "image_url": "",
+         "image": "hisenseu7.png"
       }
    },
    {
-      "pk":11,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320234",
-         "name":"HP 14s-dq2512na 14 Inch Laptop - Intel® Core™ i5, 256 GB SSD, Silver",
-         "description":"Intel® Core™ i5-1135G7 Processor, RAM: 8 GB / Storage: 256 GB SSD ",
-         "price":699,
-         "category":2,
-         "rating":4.5,
-         "image_url":"",
-         "image":"dq2512na.png"
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320234",
+         "name": "HP 14s-dq2512na 14 Inch Laptop - Intel® Core™ i5, 256 GB SSD, Silver",
+         "description": "Intel® Core™ i5-1135G7 Processor, RAM: 8 GB / Storage: 256 GB SSD ",
+         "price": 699,
+         "category": 2,
+         "rating": 4.5,
+         "image_url": "",
+         "image": "dq2512na.png"
       }
    },
    {
-      "pk":12,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320235",
-         "name":"HP 14s-dq2512na 14 Inch Laptop - Intel® Core™ i5, 256 GB SSD, Silver",
-         "description":"Intel® Core™ i5-1135G7 Processor, RAM: 8 GB / Storage: 256 GB SSD",
-         "price":429,
-         "category":2,
-         "rating":4.5,
-         "image_url":"",
-         "image":"dq2512na.png"
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320235",
+         "name": "HP 14s-dq2512na 14 Inch Laptop - Intel® Core™ i5, 256 GB SSD, Silver",
+         "description": "Intel® Core™ i5-1135G7 Processor, RAM: 8 GB / Storage: 256 GB SSD",
+         "price": 429,
+         "category": 2,
+         "rating": 4.5,
+         "image_url": "",
+         "image": "dq2512na.png"
       }
    },
    {
-      "pk":13,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320236",
-         "name":"ACER Aspire 5 14 Inch Laptop - Intel® Core™ i5, 512 GB SSD, Gold",
-         "description":" RAM: 8 GB / Storage: 512 GB SSD, Full HD screen",
-         "price":449,
-         "category":2,
-         "rating":4.7,
-         "image_url":"",
-         "image":"Aspire5.png"
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320236",
+         "name": "ACER Aspire 5 14 Inch Laptop - Intel® Core™ i5, 512 GB SSD, Gold",
+         "description": " RAM: 8 GB / Storage: 512 GB SSD, Full HD screen",
+         "price": 449,
+         "category": 2,
+         "rating": 4.7,
+         "image_url": "",
+         "image": "Aspire5.png"
       }
    },
    {
-      "pk":14,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320237",
-         "name":"PCSPECIALIST Icon 220 Gaming PC - AMD Ryzen 5, RTX 3050, 1 TB SSD",
-         "description":"AMD Ryzen 5 5500 Processor, RAM: 16 GB / Storage: 1 TB SSD, Graphics: NVIDIA GeForce RTX 3050 8 G, 102 FPS when playing COD: Modern Warfare 2 at 1080p",
-         "price":899,
-         "category":6,
-         "rating":5.0,
-         "image_url":"",
-         "image":"icon220.jpg"
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320237",
+         "name": "PCSPECIALIST Icon 220 Gaming PC - AMD Ryzen 5, RTX 3050, 1 TB SSD",
+         "description": "AMD Ryzen 5 5500 Processor, RAM: 16 GB / Storage: 1 TB SSD, Graphics: NVIDIA GeForce RTX 3050 8 G, 102 FPS when playing COD: Modern Warfare 2 at 1080p",
+         "price": 899,
+         "category": 6,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "icon220.jpg"
       }
    },
    {
-      "pk":15,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320238",
-         "name":"PCSPECIALIST Tornado R3S Gaming PC - AMD Ryzen 3, RTX 3050, 512 GB SSD",
-         "description":"AMD Ryzen 3 4100 Processor, RAM: 16 GB / Storage: 512 GB SSD, Graphics: NVIDIA GeForce RTX 3050 8 GB,  101 FPS when playing COD: Modern Warfare 2 at 1080p ",
-         "price":899,
-         "category":6,
-         "rating":4.7,
-         "image_url":"",
-         "image":"TornadoR3S.png"
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320238",
+         "name": "PCSPECIALIST Tornado R3S Gaming PC - AMD Ryzen 3, RTX 3050, 512 GB SSD",
+         "description": "AMD Ryzen 3 4100 Processor, RAM: 16 GB / Storage: 512 GB SSD, Graphics: NVIDIA GeForce RTX 3050 8 GB,  101 FPS when playing COD: Modern Warfare 2 at 1080p ",
+         "price": 899,
+         "category": 6,
+         "rating": 4.7,
+         "image_url": "",
+         "image": "TornadoR3S.png"
       }
    },
    {
-      "pk":16,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320239",
-         "name":"ACER Nitro N50-650 Gaming PC - Intel® Core™ i5, RTX 3050, 1 TB SSD",
-         "description":"Intel® Core™ i5-13400F Processor,  RAM: 16 GB / Storage: 1 TB SSD, Graphics: NVIDIA GeForce RTX 3050 8 GB,  96 FPS when playing COD: Modern Warfare 2 at 1080p ",
-         "price":899,
-         "category":6,
-         "rating":4.8,
-         "image_url":"",
-         "image":"N50650.png"
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320239",
+         "name": "ACER Nitro N50-650 Gaming PC - Intel® Core™ i5, RTX 3050, 1 TB SSD",
+         "description": "Intel® Core™ i5-13400F Processor,  RAM: 16 GB / Storage: 1 TB SSD, Graphics: NVIDIA GeForce RTX 3050 8 GB,  96 FPS when playing COD: Modern Warfare 2 at 1080p ",
+         "price": 899,
+         "category": 6,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "N50650.png"
       }
    },
    {
-      "pk":17,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"RAY-BAN Meta Wayfarer (Standard) Smart Glasses - Matte Black, Polarised Gradient Graphite",
-         "description":"Record or stream what you see to Instagram or Facebook",
-         "price":329,
-         "category":9,
-         "rating":5.0,
-         "image_url":"",
-         "image":"RAY-BAN Meta Wayfarer.png"
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "RAY-BAN Meta Wayfarer (Standard) Smart Glasses - Matte Black, Polarised Gradient Graphite",
+         "description": "Record or stream what you see to Instagram or Facebook",
+         "price": 329,
+         "category": 9,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "RAY-BAN Meta Wayfarer.png"
       }
    },
    {
-      "pk":18,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"META Quest 3 Mixed Reality Headset-128 GB",
-         "description":"Breakthrough mixed & virtual reality, Twice the GPU power of Quest 2",
-         "price":479,
-         "category":9,
-         "rating":4.8,
-         "image_url":"",
-         "image":"METAQuest3.png"
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "META Quest 3 Mixed Reality Headset-128 GB",
+         "description": "Breakthrough mixed & virtual reality, Twice the GPU power of Quest 2",
+         "price": 479,
+         "category": 9,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "METAQuest3.png"
       }
    },
    {
-      "pk":19,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"META Quest 3 Mixed Reality Headset - 512 GB",
-         "description":"Over 500 titles available, Backwards compatible with Meta Quest catalogue",
-         "price":619,
-         "category":9,
-         "rating":5.0,
-         "image_url":"",
-         "image":"METAQuest3.png"
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "META Quest 3 Mixed Reality Headset - 512 GB",
+         "description": "Over 500 titles available, Backwards compatible with Meta Quest catalogue",
+         "price": 619,
+         "category": 9,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "METAQuest3.png"
       }
    },
    {
-      "pk":20,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"PLAYSTATION VR2 Gaming Headset",
-         "description":"Full virtual reality experience at home, 110° field of view for captivating immersion",
-         "price":299,
-         "category":9,
-         "rating":4.8,
-         "image_url":"",
-         "image":"psvr.png"
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "PLAYSTATION VR2 Gaming Headset",
+         "description": "Full virtual reality experience at home, 110° field of view for captivating immersion",
+         "price": 299,
+         "category": 9,
+         "rating": 4.8,
+         "image_url": "",
+         "image": "psvr.png"
       }
    },
    {
-      "pk":21,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"SONY PlayStation 5 & EA Sports FC 24 Bundle with EA Sports FC 24 Ultimate Team Digital Content",
-         "description":"8K graphics & HDR technology, 825 GB SSD storage drive",
-         "price":539,
-         "category":9,
-         "rating":4.9,
-         "image_url":"",
-         "image":"ps5footballbundle.png"
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "SONY PlayStation 5 & EA Sports FC 24 Bundle with EA Sports FC 24 Ultimate Team Digital Content",
+         "description": "8K graphics & HDR technology, 825 GB SSD storage drive",
+         "price": 539,
+         "category": 7,
+         "rating": 4.9,
+         "image_url": "",
+         "image": "ps5footballbundle.png"
       }
    },
    {
-      "pk":22,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"SONY PlayStation 5 Digital Edition - 825 GB",
-         "description":"825 GB SSD storage drive",
-         "price":389,
-         "category":9,
-         "rating":5.0,
-         "image_url":"",
-         "image":"PlayStation5.png"
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "SONY PlayStation 5 Digital Edition - 825 GB",
+         "description": "825 GB SSD storage drive",
+         "price": 389,
+         "category": 7,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "PlayStation5.png"
       }
    },
    {
-      "pk":23,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"MICROSOFT Xbox Series S - 1 TB SSD, Black",
-         "description":"1440p gaming up to 120 FPS & HDR",
-         "price":299,
-         "category":9,
-         "rating":5.0,
-         "image_url":"",
-         "image":"SeriesS.png"
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "MICROSOFT Xbox Series S - 1 TB SSD, Black",
+         "description": "1440p gaming up to 120 FPS & HDR",
+         "price": 299,
+         "category": 7,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "SeriesS.png"
       }
    },
    {
-      "pk":24,
-      "model":"products.product",
-      "fields":{
-         "sku":"pp5007320240",
-         "name":"MICROSOFT Xbox Series X - 1 TB",
-         "description":"Custom 1 TB NVMe SSD & 16 GB GDDR6 memory",
-         "price":479,
-         "category":9,
-         "rating":5.0,
-         "image_url":"",
-         "image":"SeriesX.png"
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+         "sku": "pp5007320240",
+         "name": "MICROSOFT Xbox Series X - 1 TB",
+         "description": "Custom 1 TB NVMe SSD & 16 GB GDDR6 memory",
+         "price": 479,
+         "category": 7,
+         "rating": 5.0,
+         "image_url": "",
+         "image": "SeriesX.png"
       }
    }
 ]
