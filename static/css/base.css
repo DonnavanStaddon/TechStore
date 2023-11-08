@@ -18,10 +18,6 @@ body {
   text-align: center;
 }
 
-p {
-  margin-top: 50px;
-}
-
 .index{
   margin: 0;
   position: absolute;
@@ -42,7 +38,7 @@ p {
   font-size: 16px;
   cursor: pointer;
   float: left;
-  margin-top: 20%;
+  margin-top: 0%;
 }
 
 .index .button:not(:last-child) {
@@ -51,4 +47,11 @@ p {
 
 .index .button:hover {
   background-color: #3e8e41;
+}
+
+.indexh1{
+  text-align: center;
+}
+.indexp{
+  text-align: center;
 }
