@@ -22,6 +22,15 @@ p {
   margin-top: 50px;
 }
 
+.index{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .index .button {
   background-color: #04AA6D; /* Green */
   border: 1px solid green;
