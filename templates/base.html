@@ -67,6 +67,10 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{% url 'products' %}?category=television">Televisions</a>
+              <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+              <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+              <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
+              <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
             </div>
           </li>
           <li class="nav-item dropdown">
