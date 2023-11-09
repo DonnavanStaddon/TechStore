@@ -46,10 +46,8 @@
 </head>
 
 <body>
-  <div id="bg"></div>
   <header class="container-fluid fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="#">Tech Store</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -67,10 +65,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{% url 'products' %}?category=television">Televisions</a>
-              <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
-              <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
-              <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
-              <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -91,6 +85,18 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{% url 'products' %}?category=vr">VR</a>
               <a class="dropdown-item" href="{% url 'products' %}?category=consoles">Consoles</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              All Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+              <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+              <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
+              <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
             </div>
           </li>
         </ul>
@@ -144,7 +150,7 @@
     <h2 id="banner">Free Delivery On Orders Over £{{ free_shipping_threshold }}!</h2>
   </header>
 
-  <p class="margin"></p>
+  <h1 class="logo">Tech Store</h1>
 
   {% if messages %}
   <div class="message-container"></div>
