@@ -79,20 +79,13 @@ h1.logo {
   cursor: pointer;
 }
 
-.addtobagbtn {
-  background-color: #00FFFF;
-  color: black;
-  border: 2px solid #04AA6D;
-  position: relative;
-  position: absolute;
-  top: 400px;
-  right: 1;
-  width: 200px;
-  height: 100px;
-
+.btn-black {
+  background: #7FFFD4;
+  color: #8A2BE2;
 }
 
-.addtobagbtn:hover {
-  background-color: #04AA6D;
-  color: white;
+.btn-outline-black {
+  background: #8A2BE2;
+  color: black !important; /* use important to override link colors for <a> elements */
+  border: 1px solid black;
 }
