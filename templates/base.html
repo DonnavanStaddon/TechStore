@@ -28,7 +28,8 @@
 
   {% block corejs %}
   <script src="https://kit.fontawesome.com/35ae2e5353.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
@@ -152,7 +153,11 @@
   <h1 class="logo">Tech Store</h1>
 
   {% if messages %}
-  <div class="message-container"></div>
+  <div class="message-container">
+    {% for message in messages %}
+    {% include 'includes/toasts/toast_success.html' %}
+    {% endfor %}
+  </div>
   {% endif %}
 
   {% block page_header %}
@@ -162,8 +167,10 @@
   {% endblock %}
 
   {% block postloadjs %}
+  <script type="text/javascript">
+    $('.toast').toast('show');
+  </script>
   {% endblock %}
-
 
 </body>
 
