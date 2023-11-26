@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#ra*90&+7ae_=t7(i%tog+lg1*!g%zu=1uznh%rbj^y(a4&mg%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-donnavanstadd-techstore-71d7gd56z5z.ws-eu106.gitpod.io']
+ALLOWED_HOSTS = ['8000-donnavanstadd-techstore-zwotbao3nmg.ws-eu106.gitpod.io']
 
 
 # Application definition
@@ -80,6 +80,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
             ],
             'builtins': [
