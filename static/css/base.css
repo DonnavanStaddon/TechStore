@@ -80,12 +80,19 @@ h1.logo {
 }
 
 .btn-black {
-  background: #7FFFD4;
+  background: #008d5e;
   color: #8A2BE2;
 }
 
-.btn-outline-black {
+.btn-keepshopping {
   background: #7FFFD4;
+  color: black !important;
+  /* use important to override link colors for <a> elements */
+  border: 1px solid black;
+}
+
+.btn-checkout {
+  background: #05ff05;
   color: black !important;
   /* use important to override link colors for <a> elements */
   border: 1px solid black;
