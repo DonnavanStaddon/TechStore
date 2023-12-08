@@ -95,3 +95,7 @@ We have sent an e-mail to you for verification. Follow the link provided to fina
 ## Home Page setup
 1. Add all auth in templates
 2. add base.html to templates
+
+## Chechout and Payment method with Stripe
+1. craate an account at Sripe.com
+2. Create webhooks
